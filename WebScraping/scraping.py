@@ -1,7 +1,12 @@
+#requestsモジュールをインポート
 import requests
-import requests
+#BeautifulSoupモジュールをインポート
 from bs4 import BeautifulSoup
+#seleniumのwebdriverモジュールをインポート
+#from selenium import webdriver
+from time import sleep
 
+#driver = webdriver.Chrome('C:\Users\kfg_admin\Documents\練習\WebScraping\chromedriver_win32\chromedriver.exe')
 
 url = "https://news.yahoo.co.jp"
 response = requests.get(url)
